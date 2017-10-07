@@ -26,11 +26,7 @@ import com.jogamp.opengl.util.texture.TextureData;
 import com.jogamp.opengl.util.texture.TextureIO;
 import com.jogamp.opengl.util.texture.awt.AWTTextureIO;
 
-/**
- * COMMENT: Comment Game 
- *
- * @author malcolmr
- */
+
 public class Game extends JFrame implements GLEventListener, KeyListener{
     private Terrain myTerrain;
     private int angle = 0;
